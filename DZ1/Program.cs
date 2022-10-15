@@ -57,3 +57,19 @@ if (Z == 4)
         }
     }
 }
+
+// Задача №6
+if (Z == 6)
+{
+    Console.WriteLine("Задача 6. Введите число");
+    int A6 = Convert.ToInt32(Console.ReadLine());
+
+    if (A6 % 2 == 0)
+    {
+        Console.WriteLine($"Число {A6} - чётное");
+    }
+    else
+    {
+        Console.WriteLine($"Число {A6} - нечётное");
+    }
+}
