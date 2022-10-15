@@ -73,3 +73,31 @@ if (Z == 6)
         Console.WriteLine($"Число {A6} - нечётное");
     }
 }
+
+// Задача №8
+if (Z == 8)
+{
+    Console.WriteLine("Задача 8. Введите число");
+    int N = Convert.ToInt32(Console.ReadLine());
+
+    if (N > 1)
+    {
+        int i = 2;
+
+        Console.WriteLine($"Чётные числа от 1 до {N}:");
+
+        while (i < (N - 1))
+        {
+            Console.Write($"{i}, ");
+            i += 2;
+        }
+        if (i <= N)
+        {
+            Console.Write(i);
+        }
+    }
+    else    
+    {
+        Console.WriteLine("В заданном интервале чётных чисел нет");
+    }
+}
