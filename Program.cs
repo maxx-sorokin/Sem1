@@ -1,15 +1,32 @@
 ﻿Console.Clear();
-Console.WriteLine("Введите два числа:");
-int numberA = Convert.ToInt32(Console.ReadLine());
-int numberB = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите два числа от 1 до 7");
+int number = Convert.ToInt32(Console.ReadLine());
 
-int square = numberB * numberB;
-
-if (square == numberA)
+if (number == 1)
 {
-    Console.WriteLine("Да");
+    Console.WriteLine("Понедельник");
 }
-else
+if (number == 2)
 {
-    Console.WriteLine("Нет");
+    Console.WriteLine("Вторник");
+}
+if (number == 3)
+{
+    Console.WriteLine("Среда");
+}
+if (number == 4)
+{
+    Console.WriteLine("Четверг");
+}
+if (number == 5)
+{
+    Console.WriteLine("Пятница");
+}
+if (number == 6)
+{
+    Console.WriteLine("Суббота");
+}
+if (number == 7)
+{
+    Console.WriteLine("Воскресенье");
 }
