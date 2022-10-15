@@ -1,14 +1,5 @@
 ﻿Console.Clear();
-Console.WriteLine("Введите число");
+Console.WriteLine("Введите трёхзначаное число");
 int N = Convert.ToInt32(Console.ReadLine());
 
-int i = -N;
-
-while (i < N)
-{
-    Console.Write(i);
-    Console.Write(", ");
-    i += 1;
-}
-
-Console.Write(i);
+Console.WriteLine(N % 10);
