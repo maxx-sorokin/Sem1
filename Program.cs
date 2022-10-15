@@ -1,5 +1,15 @@
-﻿int number = Convert.ToInt32(Console.ReadLine());
+﻿Console.Clear();
+Console.WriteLine("Введите два числа:");
+int numberA = Convert.ToInt32(Console.ReadLine());
+int numberB = Convert.ToInt32(Console.ReadLine());
 
-int square = number * number;
+int square = numberB * numberB;
 
-Console.WriteLine(square);
+if (square == numberA)
+{
+    Console.WriteLine("Да");
+}
+else
+{
+    Console.WriteLine("Нет");
+}
