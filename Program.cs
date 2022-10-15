@@ -1,5 +1,5 @@
 ﻿Console.Clear();
-Console.WriteLine("Введите два числа от 1 до 7");
+Console.WriteLine("Введите число от 1 до 7");
 int number = Convert.ToInt32(Console.ReadLine());
 
 if (number == 1)
