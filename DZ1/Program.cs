@@ -25,3 +25,35 @@ if (Z == 2)
         }
     }
 }
+
+// Задача №4
+if (Z == 4)
+{
+    Console.WriteLine("Задача 4. Введите три числа");
+    int A4 = Convert.ToInt32(Console.ReadLine());
+    int B4 = Convert.ToInt32(Console.ReadLine());
+    int C4 = Convert.ToInt32(Console.ReadLine());
+
+    if (A4 > B4)
+    {
+        if (A4 > C4)
+        {
+            Console.WriteLine($"Максимальное число {A4}");
+        }
+        else
+        {
+            Console.WriteLine($"Максимальное число {C4}");
+        }
+        }
+    else
+    {
+        if (B4 > C4)
+        {
+            Console.WriteLine($"Максимальное число {B4}");
+        }
+        else
+        {
+            Console.WriteLine($"Максимальное число {C4}");
+        }
+    }
+}
